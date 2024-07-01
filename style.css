@@ -1,0 +1,78 @@
+/*  */
+#profilePic{
+    width: 300px;
+    border-radius: 50%;
+    margin: 30px;
+}
+.greetings{
+    height: 200px;
+}
+#greetings{
+    font-size: 5rem;
+    text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  color: rgb(5, 40, 73);
+  padding: 80px;
+  background-color:;
+}
+.introduction{
+    margin-left: 20px;
+    flex-wrap: wrap;
+    float: left;
+    width: 40%;
+    display: flex;
+    align-content: center;
+    font-size:large;
+}
+.introPic{
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color:;
+    padding-bottom:80px;
+    
+}
+@media(max-width:700px){
+    .introPic{
+     display:inline-block;
+    }
+    .introduction{
+        width: 100%;
+        text-align: center;
+    }
+    .profile{
+     display:flex;
+     justify-content: center;
+    }
+    
+
+}
+.Details{
+    display: flex;
+    justify-content: space-around;
+    background-color: ;
+    padding: 80px;
+}
+ul{
+    list-style-type:circle;
+}
+#name{
+    /* font-size: 5rem;
+    text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  padding: 10px; */
+  font-weight: bold;
+  
+}
+.lead{
+    font-stretch: expanded;
+}
+hr{
+    margin: 0;
+}
+
